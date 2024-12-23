@@ -1,0 +1,104 @@
+[PAUSE MENU]
+	< > {1} aggiungeere un menu di pausa
+	[AUDIO]
+		< > {1} master audio e singoli audio (ambiente/UI/macchina)
+	[KEYBINDINGS]
+		< > {1} possibilita' di rimappare tutti i tasti
+		< > {1} cambiare l'input system in quello nuovo di unity (che mi fa estremamente cagare ma e' l'unico che supporta riconfigurazioni in modo decente)
+========================================================================================================================================================================================================================================================
+[AUDIO]
+	< > {2} aggiungere l'audio in tutte le scene
+	< > {2} audio computer
+	< > {2} audio macchina che si muove
+	< > {2} audio testo che scorre
+========================================================================================================================================================================================================================================================
+[ACT 1]
+	[PC]
+		[PERSONAL COMPUTER]
+			< > {3} ogni app sul desktop deve funzionare, comprese le cartelle (non modificabili, solo view)
+			< > {2} aggiungere google o qualcosa di simile per fare ricerche sul rivenditore
+			< > {2} aggiungere le notizie sulla pagina iniziale di google (svendite di macchine e cambi di regolamentazioni)
+			< > {2} aggiungere una notizia di un serial killer che impaglia la gente
+			< > {2} aggiungere macchine che sono alla nostra portata finanziaria ma che poi non puoi comprare per motivo del seller
+			< > {1} rimuovere l'effetto "molla" quando si scrolla con la rotellina del mouse
+
+		[APP 1]
+			<V> {1} aggiungere il tasto "vai alla chat" nello store dell auto e di conseguenza aggiungerlo ai preferiti
+			<V> {2} aggiungere un tasto per vedere i commenti e viceversa
+			< > {-} aggiungere un messaggi in THECAR di uno che non si fida
+			< > {3} far si che rimanga selezionato il tasto dell'auto una volta cliccato
+			< > {2} aggiungere almeno altre 30 recenzioni e commenti
+			< > {2} aggiungere alemno altre 10 macchine da scegliere
+		
+		[APP 3]
+			<V> {1} quando la chat finiscere mettere il grayout della macchina
+			<V> {1} aggiungere la possibilit� di rimuovere la chat direttamente da quest'app
+			<V> {1} fare in modo che macchine favorite una volta non possano essere messe in chat di nuovo
+			<V> {1} risolvere gli errori grammaticali nelle chat
+			< > {1} sogliere la stella da favorite a unfavorite in APP1 se la chat e stata chiusa
+			<V> {2} aggiustare la grandezza delle bubble sms in modo automatico
+			< > {2} quando si seleziona la chat deve uscire scritto il prezzo dell'auto
+			< > {3} diversificare il pi� possibile i dialoghi in modo tale che non escano sempre gli stessi
+			< > {3} il numero dei dialoghi deve essere almeno la met� +1 delle auto
+			< > {2} aggiungere almeno altri 10 tipi di dialoghi con i sellers
+			< > {1} aggiungere la possibilita' di contrattare il prezzo, senno a che serve scegliere le auto che costano di piu se poi non posso permettermele
+
+	[INTRO]
+		<V> {1} mettere un tasto per far capire che i dialoghi possono essere skippati
+		<V> {3} risolvere gli errori grammaticali
+		< > {-} cambiare animazione iniziale con un orologio ottagonale che gira
+		< > {-} auto skip dei dialoghi se sono finiti dopo un tot di tempo
+
+	[AMBIENT]
+		< > {3} aggiustare la luce delle tende
+		< > {3} aggiungere il gatto che gira
+		< > {2} cambiare lo shader per ottenere un effetto VHS (questo risolve il problema delle luci dinamiche)
+		< > {1} cucinare le luci (bake lights) e rimuovere luci dinamiche
+========================================================================================================================================================================================================================================================
+[ACT 2]
+	[AMBIENT]
+		<V> {1} aggiustare la grafica in modo tale che sembra che stia per piovere
+		<V> {1} aggiungere i nomi alle vie
+		<V> {1} aggiungere i lampionbi per la luce
+		< > {1} agiungere auto che vanno per fatti loro
+		<V> {2} aggiungere il trattore che ti uccide se vai fuori strada per troppo
+		< > {1} aggiungere i billboard dei alberi in lontananza
+		< > {1} aggiungere il cambio del meteo per inizio della pioggia
+		< > {1} piu si avvicina alla destinazione piu aumenta la nebbia
+	
+	[CAR]
+		<V> {1} migliorare la luce interna alla vettura
+		<V> {1} aggiungere il porta cellulare
+		<V> {1} interagire con la radio
+		< > {2} aggiungere luci di interazione interno macchina
+	
+	[RADIO]
+		< > {2} aggiungere una radio interagibile
+		< > {2} la radio fa suono a caso tipo personaggi di the sims ma ci sono i captions
+		< > {2} canale news, parlano anche del serial killer
+		< > {2} canale traffico, parlano delle auto e il loro movimento in tempo reale
+		< > {2} canale meteo, indica quanto tempo ci vuole prima che piova
+	
+	[GAMEPLAY]
+		<V> {1} vedere il telefono per sapere dove andare (indicazioni stradali e la mappa del luogo)
+		< > {1} dopo un tot di tempo inizia a piovere e perdi (ricominia la scena)
+		<V> {1} il tempo per far piovere � di 10 minuti
+		<V> {2} e' possibile interagire con le persone e chiedere indicazioni (domande automatiche, no scelta multipla, classico tasto di interazione)
+		< > {1} aggiungere aiuto navigatore alla guida ma ogni volta ti porta ad un ricalcolo (almeno 3 volte)
+========================================================================================================================================================================================================================================================
+[ACT 3]
+	[AMBIENT]
+	[GAMEPLAY]
+========================================================================================================================================================================================================================================================
+
+													=========================================
+													|				 LEGENDA				|
+													|{1} priorita' massima					|
+													|{2} priorita' media					|
+													|{3} priorita' minima					|
+													|{-} meglio se non lo implemento		|
+													-----------------------------------------
+													|< >  = non iniziato					|
+													|<I> = iniziato e non finito			|
+													|<V> = finito							|
+													=========================================

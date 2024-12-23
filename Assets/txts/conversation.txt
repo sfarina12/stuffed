@@ -1,0 +1,11 @@
+[So you are interested in my car?
+|The prices are not negotiable
+^So why are you wasting my time!
+
+
+
+
+[ question
+| yes
+^ no
+repeat
